@@ -1,0 +1,29 @@
+POST http://localhost:8000/video
+Content-Type: application/json
+
+{
+    "title": "Video 1",
+    "description": "Esse video é o video 1",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:8000/videos
+Content-Type: application/json
+
+###
+
+PUT http://localhost:8000/video/0c704125-06da-4d53-bdda-83c4b9080dc4
+Content-Type: application/json
+
+{
+    "title": "Video 02",
+    "description": "Esse video é o video 2",
+    "duration": 180
+}
+
+###
+
+DELETE  http://localhost:8000/video/0c704125-06da-4d53-bdda-83c4b9080dc4
+Content-Type: application/json
