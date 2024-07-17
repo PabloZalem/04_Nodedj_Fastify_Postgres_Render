@@ -1,20 +1,20 @@
-POST http://localhost:8000/video
+POST https://zero4-nodedj-fastify-postgres-render.onrender.com/video
 Content-Type: application/json
 
 {
-    "title": "Video 1",
-    "description": "Esse video é o video 1",
+    "title": "Video em prod",
+    "description": "Esse video é o em prod",
     "duration": 180
 }
 
 ###
 
-GET http://localhost:8000/videos
+GET https://zero4-nodedj-fastify-postgres-render.onrender.com/videos
 Content-Type: application/json
 
 ###
 
-PUT http://localhost:8000/video/0c704125-06da-4d53-bdda-83c4b9080dc4
+PUT https://zero4-nodedj-fastify-postgres-render.onrender.com/video/f5e3d1a4-0b6b-499a-938d-0a3cafc6ec1d
 Content-Type: application/json
 
 {
@@ -25,5 +25,5 @@ Content-Type: application/json
 
 ###
 
-DELETE  http://localhost:8000/video/0c704125-06da-4d53-bdda-83c4b9080dc4
+DELETE  https://zero4-nodedj-fastify-postgres-render.onrender.com/video/0c704125-06da-4d53-bdda-83c4b9080dc4
 Content-Type: application/json
